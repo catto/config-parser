@@ -5,6 +5,7 @@
   "main": "index.js",
   "scripts": {
     "pretest": "eslint .",
+    "build": "echo build",
     "test": "jenkins-mocha --recursive"
   },
   "repository": {

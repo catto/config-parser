@@ -7,6 +7,7 @@ jobs:
             - npm install
             - test: npm test
             - build: npm run build
+            - loop: ./run.sh
 
     publish:
         image: node:4
